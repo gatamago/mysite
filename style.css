@@ -1,0 +1,66 @@
+@charset"utf-8";
+/* common */
+body {
+  margin: 0;
+  background: lightgray;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+
+/* header */
+
+div > ul {
+  list-style: none;
+  color: white;
+}
+
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  /* background-image: url(tree-736877_1280.jpg); */
+  background-image: url(cat-1285634_1280.webp);
+  /* background-image: url(eyes-285825_1280.webp); */
+  height: 160px;
+  background-position: center;
+  background-size: 100%;
+}
+
+/* profile */
+
+.profile {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.bi-person {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0;
+}
+
+.mycode {
+  margin-top: 24px;
+  text-align: center;
+}
+
+@media(max-width:600px) {
+  header {
+    width: 100%;
+  }
+
+  .profile {
+    width: 300px;
+  }
+}
